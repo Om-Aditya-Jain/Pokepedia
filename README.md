@@ -1,1 +1,3 @@
-# Learning React Js from Thapa Technical. 
+# Pokepedia
+
+Pokemon Wikipedia that displays pokemon details from pokedex number.

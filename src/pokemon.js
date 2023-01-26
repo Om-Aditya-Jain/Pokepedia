@@ -29,7 +29,15 @@ useEffect(()=>{
         console.log(res);
         setname(res.data.name);
         setmoves(res.data.moves.length);
-        setimgpath(`https://unpkg.com/pokeapi-sprites@2.0.2/sprites/pokemon/other/dream-world/${num}.svg`);
+        var temp_val;
+        if(num<10){
+            temp_val = `00${num}`;
+        }else if(num>10 && num<100){
+            temp_val = `0${num}`;
+        }else{
+            temp_val = num;
+        }
+        setimgpath(`https://assets.pokemon.com/assets/cms2/img/pokedex/full/${temp_val}.png`);
     }
 
     pokedata();

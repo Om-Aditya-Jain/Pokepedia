@@ -12,7 +12,7 @@ export default function PokeCard(props) {
       <Card sx={{ maxWidth: 300, minWidth:300}}>
       <CardMedia
         component="img"
-        height="200"
+        height="300"
         image={props.imagepath}
         alt="Image not available"
         sx={{objectFit: "contain"}}

@@ -1,6 +1,7 @@
 # Pokepedia
 
-Pokemon Wikipedia that displays pokemon details from pokedex number.
+- Pokemon Wikipedia that displays Pokemon details from Pokedex number.
+- It is built using Reactjs and PokeAPI.
 
 # Live Preview - 
 https://pokepediabyom.netlify.app/
